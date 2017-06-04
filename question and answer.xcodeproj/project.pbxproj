@@ -12,6 +12,7 @@
 		F976D3551EDC634300ECD614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F976D3531EDC634300ECD614 /* Main.storyboard */; };
 		F976D3571EDC634300ECD614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F976D3561EDC634300ECD614 /* Assets.xcassets */; };
 		F976D35A1EDC634300ECD614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F976D3581EDC634300ECD614 /* LaunchScreen.storyboard */; };
+		F976D3641EDC6CD800ECD614 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F976D3631EDC6CD800ECD614 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F976D3561EDC634300ECD614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F976D3591EDC634300ECD614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F976D35B1EDC634300ECD614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F976D3631EDC6CD800ECD614 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F976D34F1EDC634300ECD614 /* AppDelegate.swift */,
 				F976D3511EDC634300ECD614 /* ViewController.swift */,
 				F976D3531EDC634300ECD614 /* Main.storyboard */,
+				F976D3631EDC6CD800ECD614 /* HomeViewController.swift */,
 				F976D3561EDC634300ECD614 /* Assets.xcassets */,
 				F976D3581EDC634300ECD614 /* LaunchScreen.storyboard */,
 				F976D35B1EDC634300ECD614 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				F976D3521EDC634300ECD614 /* ViewController.swift in Sources */,
 				F976D3501EDC634300ECD614 /* AppDelegate.swift in Sources */,
+				F976D3641EDC6CD800ECD614 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				F976D3601EDC634300ECD614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
